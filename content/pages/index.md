@@ -236,11 +236,188 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >+
+      <!DOCTYPE html>
+
+
+      <html lang="en">
+
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Beat Insurance Denials</title>
+          <style>
+              body {
+                  font-family: Arial, sans-serif;
+                  margin: 0;
+                  padding: 0;
+                  line-height: 1.6;
+              }
+              header {
+                  background: #004080;
+                  color: #fff;
+                  padding: 1rem 0;
+                  text-align: center;
+              }
+              nav {
+                  background: #0066cc;
+                  padding: 0.5rem 0;
+                  text-align: center;
+                  position: sticky;
+                  top: 0;
+              }
+              nav a {
+                  color: white;
+                  margin: 0 1rem;
+                  text-decoration: none;
+                  font-weight: bold;
+              }
+              nav a:hover {
+                  text-decoration: underline;
+              }
+              section {
+                  padding: 2rem;
+                  max-width: 800px;
+                  margin: 0 auto;
+              }
+              footer {
+                  text-align: center;
+                  padding: 1rem;
+                  background: #004080;
+                  color: white;
+              }
+              .cta {
+                  background: #008000;
+                  color: white;
+                  padding: 0.5rem 1rem;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 1rem;
+                  border-radius: 5px;
+              }
+              .cta:hover {
+                  background: #006600;
+              }
+          </style>
+      </head>
+
+      <body>
+          <header>
+              <h1>Beat Insurance Denials</h1>
+              <p>We Make Insurance Pay</p>
+          </header>
+          <nav>
+              <a href="#welcome">Home</a>
+              <a href="#intake">Submit Your Case</a>
+              <a href="#letters">Sample Letters</a>
+              <a href="#privacy">Privacy Policy</a>
+          </nav>
+          <section id="welcome">
+              <h2>Welcome</h2>
+              <p>Have you been denied coverage for a necessary medical procedure or treatment? At Beat Insurance Denials, we’re here to help you fight back and win.</p>
+              <a href="#intake" class="cta">Get Started Now</a>
+          </section>
+          <section id="intake">
+              <h2>Submit Your Case</h2>
+              <form id="attorneyIntakeForm" method="post" enctype="multipart/form-data" action="mailto:bid\@beatinsurancedenials.com">
+                  <label for="name">Your Name:</label>
+                  <input type="text" id="name" name="name" required>
+
+                  <label for="email">Your Email:</label><br>
+                  <input type="email" id="email" name="email" required><br><br>
+
+                  <label for="phone">Your Phone Number:</label><br>
+                  <input type="tel" id="phone" name="phone" required><br><br>
+
+                  <label for="insuranceCompany">Insurance Company Name:</label><br>
+                  <input type="text" id="insuranceCompany" name="insuranceCompany" required><br><br>
+
+                  <label for="policyNumber">Policy Number:</label><br>
+                  <input type="text" id="policyNumber" name="policyNumber" required><br><br>
+
+                  <label for="denialReason">Reason for Denial:</label><br>
+                  <textarea id="denialReason" name="denialReason" required></textarea><br><br>
+
+                  <label for="documents">Upload Relevant Documents:</label><br>
+                  <input type="file" id="documents" name="documents" multiple required><br><br>
+
+                  <button type="submit">Submit</button>
+              </form>
+          </section>
+          <section id="letters">
+              <h2>Sample Letters</h2>
+              <h3>Sample Insurance Demand Letter</h3>
+              <pre>
+
+      \[Your Name]\[Your Address]\[City, State ZIP Code]\[Email Address]\[Phone
+      Number]
+
+
+      \[Date]
+
+
+      \[Insurance Company Name]\[Insurance Company Address]\[City, State ZIP
+      Code]
+
+
+      Subject: Demand for Coverage - Policy #\[Policy Number]
+
+
+      Dear \[Insurance Company Representative or Appeals Department],
+
+
+      I am writing to formally demand that \[Insurance Company Name] provide
+      coverage for \[specific treatment/procedure] as prescribed by my
+      healthcare provider, \[Provider Name], on \[date]. The denial of coverage
+      for this medically necessary treatment is unjustified and detrimental to
+      my health and well-being.
+
+
+      According to the policy terms under Policy #\[Policy Number], I am
+      entitled to coverage for treatments deemed necessary by a licensed
+      healthcare provider. \[Provide a brief explanation of why the treatment is
+      necessary and include supporting evidence such as medical records, doctor
+      recommendations, or relevant policy excerpts.]
+
+
+      Failure to promptly address this matter and approve coverage will leave me
+      with no option but to pursue all available remedies, including legal
+      action, to protect my rights under the policy.
+
+
+      Please respond within \[specific timeframe, e.g., 15 business days] to
+      confirm approval of coverage for this treatment. You may contact me at
+      \[Phone Number] or \[Email Address] if additional information is required.
+
+
+      Thank you for your immediate attention to this matter.
+
+
+      Sincerely,\[Your Full Name]
+
+
+      Sample Insurance Dispute Letter
+
+      \[Insert content or provide a link to the dispute letter here.]
+
+
+
+      Privacy Policy
+
+      Your privacy is important to us. We do not share your information with
+      third parties. Any information submitted through this website is used
+      solely to assist with your insurance denial case.
+
+
+
+      © 2025 Beat Insurance Denials. All Rights Reserved.
+
+
+
+      </body>
+
+      </html>
+
     media:
       title: Title of the video
       url: /images/placeholder-video.mp4
@@ -435,7 +612,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
+          "Design is a plan for arranging elements in such a way as best to
+          accomplish a particular purpose."
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
         text: >-
@@ -464,7 +642,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
+          "Design is how it works, how it functions. Good design doesn't just
+          make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
         text: >-
@@ -523,7 +702,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
+          "Design can be art. Design can be aesthetics. Design is so simple,
+          that's why it is so complicated."
         tagline: Testimonial 5
         subtitle: 'Jane Walters, Company'
         text: >-
@@ -552,7 +732,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
+          “Quote from some important person goes right here. I love using
+          Netlify Create.”
         tagline: Testimonial 6
         subtitle: 'Jane Doe, Company'
         text: >-
@@ -646,8 +827,9 @@ sections:
       - title: Feature Item Three
         tagline: This is the tagline
         subtitle: This is the item subtitle
-        text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+        text: >
+          Learn from the tutorial and build your first awesome Netlify Create
+          site.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
